@@ -7,7 +7,6 @@ Get-VxLanEdge
 	russ 13/01/2017
 	
 .Acknowledgments 
-
     
 .Example
     ./Get-VxLanEdge.ps1
@@ -89,7 +88,6 @@ foreach($edge in $edgevms)
 		Write-Host $edge.name "  >  " $vmId "  " $vmName "  " $Address2  -ForegroundColor White  
 		"`n" 
 		}
-		
 	}
 }
 
@@ -97,10 +95,7 @@ foreach($edge in $edgevms)
 Write-host "Finished"  "`n" 
 
 
-
 <# 
-
 NOTES: 
 IPv6 addresses are omitted - see $vmview.Guest.Net.IpAddress[x]
-
 #>
